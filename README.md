@@ -1,5 +1,5 @@
 What this does:<br>
-<p>• The plugin improves your life by adding a toggle switch switch to easily turn on and off any plugin without refreshing the page.
+<p>• The plugin improves your life by adding a toggle switch to easily turn on and off any plugin without refreshing the page.
 <p>• It removes the deactivate and activate link that typically exists on the plugin
 
 Current issues:<br>
