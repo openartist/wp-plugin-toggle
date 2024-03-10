@@ -1,0 +1,39 @@
+.plugin-activation-toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.plugin-activation-toggle .toggle-switch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.plugin-activation-toggle .toggle-switch::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.plugin-activation-toggle.active .toggle-switch {
+    background-color: #2271b1;
+}
+
+.plugin-activation-toggle.active .toggle-switch::before {
+    transform: translateX(20px);
+}
